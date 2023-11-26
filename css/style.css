@@ -204,9 +204,10 @@ button:hover {
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover;
+    background-image: url('../images/10.png');
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .bg-splitter {
         background-image: url('../images/frequently-asked-mobile.jpg');
     }
@@ -215,4 +216,4 @@ button:hover {
     .bg-splitter {
         background-image: url('../images/10.png');
     }
-}
+} */
