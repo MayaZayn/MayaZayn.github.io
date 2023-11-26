@@ -1,0 +1,200 @@
+* {
+    color: #05264e !important;
+}
+.btn {
+    background-color: #05264e !important;
+    color: white !important;
+    border: none;
+}
+.carousel-inner {
+    max-height: 100%; 
+}
+.carousel-item img {
+    object-fit: cover; 
+    max-height: 100%;
+}
+.review-link a {
+    text-decoration: none;
+    color: #04515f !important;
+}
+.review-link:hover a {
+    color: #00dbde !important;
+}
+.heading {
+    background: linear-gradient(to right, #05264e, #eda418) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+.audio-books {
+    box-shadow: 0px 0px 15px 5px lightgray;
+}
+.audio-books-options {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.audio-books-options li:hover {
+    background-color: gray;
+}
+.audio-books-options li {
+    background-color: lightgray;
+    padding: 2px 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.audio-books-line {
+    width: 4.5rem;
+    height: 0.3rem;
+    border-radius: 10px;
+    background-color: #eda418;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.audio-books:hover .audio-books-line {
+    width: 7rem;
+}
+.audio-books-img {
+    transition: 0.3s;
+    height: 100%;
+    max-width: 70%;
+    /* transform: translateX(5%); */
+}
+.audio-books:hover .audio-books-img {
+    transform: scale(1.1);
+}
+.footer-header {
+    border-width: 1px 0px;
+    border-style: solid none;
+    border-color: #05264e; 
+    width: 100%;
+}
+.footer-footer {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #05264e; 
+    width: 100%;
+}
+.appreciation-img {
+    border-radius: 50%; 
+    height: 10rem;
+    width: 7rem;
+    border: 2px solid rgba(0, 0, 0, 0.586);
+    margin-top: 10rem;
+    margin-left: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.navbar {
+    background-color: white;
+}
+header {
+    margin-top: 5rem;
+}
+/* .accordion-button {
+    box-shadow: 10px 00px 0px lightgray inset;
+} */
+.carousel-caption {
+    background-color: #05264e4d;
+    border-radius: 0.3rem;
+    font-size: larger;
+}
+.active-nav-item > a:hover {
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px 20px #7eb6fb;
+}
+
+.active-nav-item > a:hover::first-letter {
+    color: #eda418;
+}
+
+.active-nav-item > a:hover {
+    color: black;
+}
+/* .navbar-brand:hover {
+    text-shadow: 2px 2px 15px #05264e;
+} */
+.card-overlay::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #05264e;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.card-overlay::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: #eda418;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.card-overlay:hover::after {
+    width: 100%;
+    height: 100%;
+}
+.card-overlay:hover::before {
+    width: 100%;
+    height: 100%;
+}
+.card-btn {
+    position: absolute;
+    z-index: 5;
+    right: 1.5rem;
+    bottom: 1.5rem;
+}
+.best-selling-card {
+    min-height: 450px;
+}
+.side-icons {
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+.appreciation-card-overlay {
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: inherit;
+    background-image: linear-gradient(rgba(44, 44, 44, 0.77), rgba(162, 162, 162, 0.297));
+}
+.appreciation-card-overlay h3, .appreciation-card-overlay time, .appreciation-card-overlay i {
+    color: white !important;
+}
+.appreciation-card:hover .appreciation-card-overlay {
+    background-image: linear-gradient(rgba(237, 162, 24, 0.366), rgba(162, 162, 162, 0.297));
+}
+.appreciation-card:hover .appreciation-card-overlay h3, .appreciation-card:hover .appreciation-card-overlay time, .appreciation-card:hover .appreciation-card-overlay i {
+    color: #05264e !important;
+}
+.appreciation-card:hover{
+    transform: scale(90%);
+}
+.appreciation-card {
+    transition: 0.5s;
+}
+.join-us-img {
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 5px #05264e;
+}
+.join-us-img:hover {
+    opacity: 0.8;
+}
+.review-background {
+    background-color: #05264e;
+}
+a:hover {
+    opacity: 0.9;
+}
+button:hover {
+    opacity: 0.9;
+}
