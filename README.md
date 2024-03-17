@@ -1,2 +1,2 @@
-# mayazayn.github.io
+# Personal Portfolio
 Personal Portfolio (HTML, CSS, Bootstrap)
