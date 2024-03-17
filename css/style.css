@@ -1,0 +1,206 @@
+* {
+    /* background-color: rgb(16, 15, 15); */
+    color: white !important;
+}
+
+body {
+    background-color: black;
+    scrollbar-color: rgb(255, 101, 127) rgb(16, 15, 15);
+}
+
+.card {
+    background-color: rgb(16, 15, 15) !important;
+}
+
+.navbar {
+    background-color:  rgb(0, 0, 0) !important;
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    text-shadow: 0px 0px 7px white;
+}
+
+.card-header h2 {
+    text-shadow: 0px 0px 3px white;
+}
+
+.about {
+    background-image: url("../images/background1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 !important;
+}
+
+.about-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    background-color: rgba(16, 15, 15, 0.904);
+    margin-top: 2.5rem;
+}
+
+.about-text h1 {
+    font-size: 5rem;
+    opacity: 1;
+}
+
+.about-text-name {
+    color: rgb(255, 101, 127) !important;
+    text-shadow: 0px 0px 7px rgb(255, 101, 127);
+}
+
+.about-text h2 {
+    font-size: 3rem;
+}
+
+.about-text p {
+    display: none;
+    font-size: 1.1rem;
+    width: 98%;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(255, 101, 127);
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.skills-card-body {
+    overflow: auto;
+}
+
+.projects {
+    padding: 1rem;
+}
+
+.projects h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.projects-card {
+    text-align: left !important;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.card-footer {
+    height: 2rem;
+}
+
+footer p {
+    text-align: center;
+    padding: 0.7rem;
+    margin: 0;
+}
+
+.projects-card-body a {
+    font-size: 3rem;
+    display: inline-block;
+    margin: 0px 1rem;
+}
+
+.card-body {
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.skills-card {
+    min-width: 150px;
+    max-width: 100px;
+    transition-duration: 0.2s;
+    margin: auto;
+}
+.card-body {
+    border-radius: 10px;
+    color: white !important;
+}
+
+.card-body a:hover {
+    font-style: italic;
+}
+
+.card-header, .card-footer {
+    border-bottom: 1px solid rgb(255, 101, 127);
+    border-top: 1px solid rgb(255, 101, 127);
+    background-color: rgba(255, 101, 127, 0.081);
+}
+
+.card-header h2 {
+    background-color: rgba(255, 101, 127, 0);
+}
+
+.skills-card:hover {
+    transform: scale(1.05);
+    box-shadow: -5px 5px 5px 2px rgba(255, 116, 139, 0.241);
+    transform: translate(5px, -5px);
+}
+
+.projects-card {
+    transition-duration: 0.2s;
+}
+
+.projects-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 50px 2px rgba(255, 116, 139, 0.241);
+}
+
+.brandIcon{
+    transition-duration: 0.2s;
+}
+
+.brandIcon:hover{
+    text-shadow: 0px 0px 20px white;
+}
+
+.nav-item {
+    transition-duration: 0.2s;
+}
+
+.nav-item:hover {
+    text-shadow: 0px 0px 10px white;
+}
+
+.resume-btn:hover {
+    background-color: rgba(255, 101, 127, 0.718);
+}
+
+@media(min-width:800px) {
+    .typewriter-text {
+        overflow: hidden;
+        border-right: .15em solid rgb(255, 101, 127);
+        white-space: nowrap; 
+        animation: typing 4.5s steps(40, end) infinite;
+      }
+    
+      @keyframes typing {
+        0% { width: 0 }
+        50% { width: 530px }
+        70% { width: 530px }
+        100% { width: 0 }
+      }
+
+    .about-text p {
+        display: block;
+    }
+}
+
+@media(max-width:799px) {
+    .about-text-title h1 {
+        font-size: 4rem;
+    }
+    .about-text h2 {
+        font-size: 1.5rem;
+    }
+}
